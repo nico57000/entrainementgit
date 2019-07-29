@@ -1,0 +1,18 @@
+﻿<Window x:Class="Entrainementgit.listviewbouton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Entrainementgit"
+        mc:Ignorable="d"
+        Title="listviewbouton" Height="450" Width="800">
+    <Grid>
+        <ListView HorizontalAlignment="Left" Height="242" Margin="70,87,0,0" VerticalAlignment="Top" Width="430">
+            <ListViewItem Content="coucou"></ListViewItem>
+            <ListViewItem Content="salut"></ListViewItem>
+            <ListViewItem Content="hello"></ListViewItem>
+        </ListView>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="606,181,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0,0.01" Height="60"/>
+
+    </Grid>
+</Window>

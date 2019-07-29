@@ -31,5 +31,12 @@ namespace Entrainementgit
             gv.Show();
             Close();
         }
+
+        private void Boutonlistview_Click(object sender, RoutedEventArgs e)
+        {
+            listviewbouton lst = new listviewbouton();
+            lst.Show();
+
+        }
     }
 }
